@@ -1,0 +1,63 @@
+h1 {
+    color: red;
+}
+table {
+    /* 電卓 */
+    width: 360px;
+    height: 590px;
+    background-color: black;
+    border: double 1px #dcdcdca4;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    margin: 20px;
+  }
+
+  input {
+    /* ボタン */
+    width: 75px;
+    height: 75px;
+    font-size: 35px;
+    color: white;
+    background-color: #4d4d4da4;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  /* ディスプレイ */
+  .display {
+    width: 250px;
+    text-align: right;
+    background: #757575;
+    border-top: groove #dcdcdca4 5px;
+    border-bottom: groove #dcdcdca4 5px;
+    border-right: groove #b6b6b6 6px;
+    border-left: groove #b6b6b6 6px;
+    border-radius: 10px;
+  }
+  
+  /* 演算子の背景色を上書きで設定 */
+  .operator {
+    background-color: #fc9713;
+  }
+
+  /* カーソルを上に乗せた時に色を濃くする */
+  input:hover {
+    background: #a0a0a0b9;
+  }
+  .display:hover {
+    background: #000000; 
+
+  }
+  .operator:hover {
+    background: #ffbc58;
+  }
+
+  /* クリック時に色を濃くする */
+  input:active {
+    background:  #5a5a5a;
+  }
+  .operator:active {
+    background: #fc7303;
+  }
